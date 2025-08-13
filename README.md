@@ -120,10 +120,6 @@ results/*.pdf
 
 ## Troubleshooting
 
-* **“Invalid Notebook: not valid JSON”**
-  Don’t “Save page as…”. In Colab use **File → Save a copy in GitHub** or **Download .ipynb**.
-  If using Git LFS, run `git lfs pull` to fetch real notebook content.
-
 * **CUDA not found / runs on CPU**
   In Colab: `Runtime → Change runtime type → GPU`. Chronos will use GPU if available.
 
@@ -138,8 +134,4 @@ results/*.pdf
 * This repo evaluates ARIMA, LSTM, and Chronos-Bolt on the same data and reports **inference-only** latency for fairness with pretrained models.
 
 
-
-
-
-If you want, I can also generate a ready-to-use `requirements.txt` and a `.gitignore` file.
 ```
