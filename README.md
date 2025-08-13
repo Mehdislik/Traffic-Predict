@@ -90,8 +90,8 @@ The comparison CSV summarizes RMSE and inference latency across Chronos variants
 ```
 .
 ├─ traffic-prediction.ipynb        # Main Colab notebook
-├─ data/                           # (optional) local data folder (not committed)
-├─ results/                        # (optional) CSV outputs
+├─ data/                           # input data time series
+├─ results/                        # CSV outputs
 ├─ README.md
 └─ .gitignore
 ```
